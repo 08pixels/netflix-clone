@@ -11,9 +11,9 @@
 
 /*elementos base*/
 body{
-   background: var(--preta);
-   font-family: 'Arial', Times, serif;
-   color:white;
+    font-family: 'Slabo 27px', serif;
+    background: var(--preta);
+    color:white;
 }
 
 
@@ -22,13 +22,12 @@ header .container{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    
 }
 
 header .logo{
     margin-left: 5px;
     color: var(--vermelho);
-    font-family: 'Arial Black', Times;
+    font-family: 'Slabo 27px', serif;
     font-size:40px;
 }
 
@@ -46,8 +45,7 @@ header nav a:hover{
 /*filme principal*/
 .filme-principal{
     font-size:16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/img/capa-house.jpg');
-
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('https://craigmckey.com/wp-content/uploads/2018/07/public-domain-logo-streamlined.png');
     height:400px;
     background-size:cover;
  
@@ -68,7 +66,7 @@ header nav a:hover{
 .filme-principal .titulo{
     margin-top: 15%;
     font-size: 40px;
-    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-family: 'Abril Fatface', cursive;
 }
 
 .botao{
